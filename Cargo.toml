@@ -1,6 +1,6 @@
 [package]
 name = "omq-php-native"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2024"
 rust-version = "1.93"
 license = "ISC"
@@ -13,7 +13,7 @@ crate-type = ["cdylib"]
 [dependencies]
 ext-php-rs = "=0.16.4"
 libc = "0.2"
-omq_zmq = { package = "omq-libzmq", version = "=0.11.4" }
+omq_zmq = { package = "omq-libzmq", version = "=0.12.0" }
 
 [lints.rust]
 missing_debug_implementations = "deny"

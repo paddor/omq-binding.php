@@ -1046,9 +1046,9 @@ checksum = "521739c6d2bac4aa25192232afe6841231376b2b26d4d9fae5ecf8ca5772e441"
 
 [[package]]
 name = "omq-libzmq"
-version = "0.13.1"
+version = "0.13.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e1da4a14fd5be5dc878aa8becd699f066ca9ad79ab2cd9a0b8d0782dfca54e18"
+checksum = "b97a32ac911911239b2a7c691b13960a3f0c0d44f5a0e6b29d218d44696615d8"
 dependencies = [
  "bytes",
  "libc",
@@ -1061,7 +1061,7 @@ dependencies = [
 
 [[package]]
 name = "omq-php-native"
-version = "0.1.6"
+version = "0.1.7"
 dependencies = [
  "cc",
  "ext-php-rs",
@@ -1071,9 +1071,9 @@ dependencies = [
 
 [[package]]
 name = "omq-proto"
-version = "0.42.1"
+version = "0.42.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "48c2259f853fa2c88a695a2972cea2fcc267324283bad43b61555718421dea8e"
+checksum = "8de42c72d1af77214e0b5eeab072fed7cda19ffaa12a3dd0071fc54db4046de4"
 dependencies = [
  "bytes",
  "concurrent-queue",
@@ -1093,9 +1093,9 @@ dependencies = [
 
 [[package]]
 name = "omq-shm"
-version = "0.10.1"
+version = "0.10.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "91068d6bd6afc00ec1efc0372d74fa146d8d698dc6f91ee05c75ab02bd0755fa"
+checksum = "d5348117bf44bbc63ca264cebd02fc5a1438c0f09b354784da7692ecf2c1d941"
 dependencies = [
  "arc-swap",
  "bytes",
@@ -1107,9 +1107,9 @@ dependencies = [
 
 [[package]]
 name = "omq-tokio"
-version = "0.39.1"
+version = "0.39.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c97596bd7b84d6396d01d03aa95a71e7c62491cc1e911d86fa36a963e3dfac26"
+checksum = "682d03a33f442e03bec9166b35adbb8ab28b98a633a13ac37727a4b42dbc13f1"
 dependencies = [
  "arc-swap",
  "bytes",
@@ -1592,9 +1592,9 @@ dependencies = [
 
 [[package]]
 name = "sha2"
-version = "0.11.1"
+version = "0.11.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "47d7069beb7d6ac7b9acd1039986e73443f24234f41074da099d6f994ac9ad19"
+checksum = "5b0e5c7d67bc53f435386b2130fdc900488c5703770f6d8a4633060e34288a27"
 dependencies = [
  "cfg-if",
  "cpufeatures",

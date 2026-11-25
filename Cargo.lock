@@ -31,9 +31,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.104"
+version = "1.0.105"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "330a5ed07fa54e4702c9d6c4174f74427fc0ef6e214bbd677ae50a5099946470"
+checksum = "2cb931c189b85683d69a5cfad41d4d418671e1ac413dd209f3f2fc31e3cfd902"
 
 [[package]]
 name = "arc-swap"
@@ -276,9 +276,9 @@ checksum = "be95d4a884358a21a199689323c29e9256b4a1b315e22f183d155422041d3a9a"
 
 [[package]]
 name = "constant_time_eq"
-version = "0.6.1"
+version = "0.6.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9eb6feb175df65d0a3ccd3e73484e940d0ac664e8034f0519fd49a93db3071d9"
+checksum = "144e7f1de087984240b7816d47f698b414979faa6f40839c5b86d6bd47db57b7"
 dependencies = [
  "rustversion",
 ]
@@ -325,9 +325,9 @@ dependencies = [
 
 [[package]]
 name = "crc32fast"
-version = "1.5.5"
+version = "1.5.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2b929dd2a135771f40afabd1073f85eed59c800b7c61901e5c254270497dad64"
+checksum = "fd9ae8fcb3ea71b0b26338b4ffb13006bb175de8fd07921089a906ce7e5e6945"
 dependencies = [
  "cfg-if",
 ]
@@ -534,9 +534,9 @@ checksum = "efa29f09b08e644d5dc1e76a318f758afc9dccbe92ccf84b4778e0433a78eecc"
 
 [[package]]
 name = "fanring"
-version = "0.3.11"
+version = "0.3.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "822dd8c68f1f0b90a3c2d60a21f703f125cae4c7feecdb259ea8548b274667ad"
+checksum = "c6e4e1667d04b51f74904b2bff5245040f3effdb70ef0fc8b0bb9c7d5e7598be"
 dependencies = [
  "arc-swap",
  "atomic-waker",
@@ -553,9 +553,9 @@ checksum = "da7c62ceae207dd37ea5b845da6a0696c799f85e97da1ab5b7910be3c1c80223"
 
 [[package]]
 name = "fearless_simd"
-version = "1.2.0"
+version = "1.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "629c9d6b6f30b5604089e0980f4d924a013aacb1654a6cdf5d3d852224f68651"
+checksum = "6a7107516a8be9a4ffe92495f3dbfe04348be0ad18f17c67a1d846511f99e599"
 dependencies = [
  "libm",
 ]
@@ -728,9 +728,9 @@ checksum = "e4eba85ea1d0a966a983acd07deee566e67395d2d96b6fb39e62b5a833f1eb0b"
 
 [[package]]
 name = "hashbrown"
-version = "0.17.1"
+version = "0.17.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ed5909b6e89a2db4456e54cd5f673791d7eca6732202bbf2a9cc504fe2f9b84a"
+checksum = "735eaa21a6a5ffb2e84362faaeb90c05ba8e19797ca30428478cb6ea3a4921bc"
 
 [[package]]
 name = "hmac"
@@ -906,9 +906,9 @@ dependencies = [
 
 [[package]]
 name = "lz4rip"
-version = "0.12.3"
+version = "0.12.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8db5320b6eb89e74b58a5319e045678dae2505df7e5bc7f56ebedfb6956fcc93"
+checksum = "6355a62d2957764be72e0cc1d20bbae2f002636fbe50b5de0547a477c899425e"
 dependencies = [
  "lz4rip-core",
  "lz4rip-decode",
@@ -923,18 +923,18 @@ checksum = "052afa89a977207a207f3e074b1518b0fb5767dab3274464fd1ee5fc7699a30b"
 
 [[package]]
 name = "lz4rip-decode"
-version = "0.11.1"
+version = "0.11.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5f408c3237d4c7a20084f2e3b86c02d91e551c295c8804e66f4a734c64c23f8d"
+checksum = "1b0652316d9108ecf75802ddc55f4174a836f2c93c3ab3b06ed009e211d9f9c7"
 dependencies = [
  "lz4rip-core",
 ]
 
 [[package]]
 name = "lz4rip-encode"
-version = "0.10.14"
+version = "0.10.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "41dfa8eb943391d8146ae468d3e2019b5802327ab3a476d04b5aad9c961dc84a"
+checksum = "b68efe7ab8b303c1138fee4b34bf1df2bcb6ae0de80475ce1d9d9fb940122149"
 dependencies = [
  "lz4rip-core",
 ]
@@ -1046,9 +1046,9 @@ checksum = "521739c6d2bac4aa25192232afe6841231376b2b26d4d9fae5ecf8ca5772e441"
 
 [[package]]
 name = "omq-libzmq"
-version = "0.12.0"
+version = "0.13.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "64dd53da917ea09a9ad27d9cf4416281f07ba4debc7e474e77eb325dba68d38e"
+checksum = "e1da4a14fd5be5dc878aa8becd699f066ca9ad79ab2cd9a0b8d0782dfca54e18"
 dependencies = [
  "bytes",
  "libc",
@@ -1061,7 +1061,7 @@ dependencies = [
 
 [[package]]
 name = "omq-php-native"
-version = "0.1.5"
+version = "0.1.6"
 dependencies = [
  "cc",
  "ext-php-rs",
@@ -1071,9 +1071,9 @@ dependencies = [
 
 [[package]]
 name = "omq-proto"
-version = "0.41.0"
+version = "0.42.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "be7564e77fef4a059ff0676838f5ce0ad5e2d3b458bd7c046e9cecfbc2b03416"
+checksum = "48c2259f853fa2c88a695a2972cea2fcc267324283bad43b61555718421dea8e"
 dependencies = [
  "bytes",
  "concurrent-queue",
@@ -1093,9 +1093,9 @@ dependencies = [
 
 [[package]]
 name = "omq-shm"
-version = "0.9.0"
+version = "0.10.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0c77d872064f046d2a08e4839b2ebc38b1b65dba157af94412cfaa565f1e4d28"
+checksum = "91068d6bd6afc00ec1efc0372d74fa146d8d698dc6f91ee05c75ab02bd0755fa"
 dependencies = [
  "arc-swap",
  "bytes",
@@ -1107,9 +1107,9 @@ dependencies = [
 
 [[package]]
 name = "omq-tokio"
-version = "0.38.0"
+version = "0.39.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3d8590bedaffce31a19d8b3b906c238b6fdf92df4b6c08be705e6ed0094a3287"
+checksum = "c97596bd7b84d6396d01d03aa95a71e7c62491cc1e911d86fa36a963e3dfac26"
 dependencies = [
  "arc-swap",
  "bytes",
@@ -2254,9 +2254,9 @@ dependencies = [
 
 [[package]]
 name = "yring"
-version = "0.3.21"
+version = "0.3.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dbf3b929ee32afe8b4f4c47e3647071775e59bcf67e0cbbbd360d30180bf1e91"
+checksum = "d9711debb4e69f22b935b1de5a5c8d0329ec79bb9de7a585b513e39aee19eed3"
 dependencies = [
  "loom",
 ]
@@ -2283,9 +2283,9 @@ dependencies = [
 
 [[package]]
 name = "zip"
-version = "9.8.1"
+version = "9.8.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a9534624d547e3f516ecde0ed9a70d37788f01d340efcfdd03bf3ea8e163c1d0"
+checksum = "2d8dbe089cf6b0448b78f5fc50139ab5aaa40d08ac07cdc1baf2c13add35fcce"
 dependencies = [
  "aes",
  "bzip2",
@@ -2313,9 +2313,9 @@ dependencies = [
 
 [[package]]
 name = "zlib-rs"
-version = "0.6.8"
+version = "0.6.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b268e58e7c693d7c271f93ffc4ba3b380412554231c85bf61ca7af91042a4112"
+checksum = "aa76918995d776d9dd34d371030be228d021137449771493d56e29f77e4148ac"
 
 [[package]]
 name = "zmij"
@@ -2337,9 +2337,9 @@ dependencies = [
 
 [[package]]
 name = "zrip"
-version = "0.8.24"
+version = "0.8.27"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "775d70b6c8bde01e916d487f389e04604615e77f240b5cb2037a294cd2825a1f"
+checksum = "f4e6e42015358c525cdd20b7e110ac8f25838efacfe89a4f5890b9c464a6c270"
 dependencies = [
  "zrip-core",
  "zrip-decode",
@@ -2348,51 +2348,51 @@ dependencies = [
 
 [[package]]
 name = "zrip-core"
-version = "0.14.0"
+version = "0.14.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "db06410c7e9e46ee4d19659df21cda5fb815684f41c78fcffa7e29768a132434"
+checksum = "47a015d2504d12688520bc7ba375a08ded1c1838795e21d2a0c12a4312614152"
 
 [[package]]
 name = "zrip-decode"
-version = "0.8.18"
+version = "0.8.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eea49d58814bb6cdc323bb328c3d8a67b7e39f848490610735d0ced28dd48e5b"
+checksum = "58d8a5160431444760787034d0c732ba1bf2a9925364aa4f7497bfee76f51c3f"
 dependencies = [
  "zrip-core",
 ]
 
 [[package]]
 name = "zrip-encode"
-version = "0.10.1"
+version = "0.10.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e4f2141271f64b548955a9e01788ec2ce3c9222b1940e6b4a1fea46fc2c644b4"
+checksum = "5aaf5071da1730bd45ba87479d223a27215cab35371334f5533e7fb94ad0fc07"
 dependencies = [
  "zrip-core",
 ]
 
 [[package]]
 name = "zstd"
-version = "0.14.4"
+version = "0.14.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ad5020ab8f27bfc0024ad0a07aed6bf022a16208f479686fbed4fdd0c85eb0b3"
+checksum = "465cb081cac3a28a84ef547702dba1fe0f4a9f22e4e57a0b675ceee028c2af80"
 dependencies = [
  "zstd-safe",
 ]
 
 [[package]]
 name = "zstd-safe"
-version = "8.3.0"
+version = "8.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a9ea9cc2576c2fcc104e9cec04f46e3ede564f4fbc206831e4ef7e859a4140d"
+checksum = "9b09bddd92c53b91833f4df03e0ea07e02d8367cfcd15a3b9acda94fc273f793"
 dependencies = [
  "zstd-sys",
 ]
 
 [[package]]
 name = "zstd-sys"
-version = "2.1.3+zstd.1.5.7"
+version = "2.2.0+zstd.1.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f729a06d0257428fd9d997ac8db7e1407bd0262ab016b085b36bc52957c0052d"
+checksum = "c3f4089cda6dda4dc43c43dd9f8964140064fd2f752f3da46c3a483c3c175160"
 dependencies = [
  "cc",
  "pkg-config",

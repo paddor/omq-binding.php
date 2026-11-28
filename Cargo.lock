@@ -180,9 +180,9 @@ dependencies = [
 
 [[package]]
 name = "cc"
-version = "1.11.3"
+version = "1.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "02f0e023adb368345ce0ca6cdfc0f24a06554468d0e8503e14a0841de79bfa69"
+checksum = "95e45cf2980b2d467be49a9ed942c9179b701063a7ca3d037de7ee9bd67f8d66"
 dependencies = [
  "find-msvc-tools",
  "jobserver",
@@ -568,9 +568,9 @@ checksum = "64cd1e32ddd350061ae6edb1b082d7c54915b5c672c389143b9a63403a109f24"
 
 [[package]]
 name = "find-msvc-tools"
-version = "0.1.15"
+version = "0.1.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1c66915cc5391097de7a2b0b972e8505aa33c0df401fd3a6811dbdb32881ba48"
+checksum = "3e44f110d1777dc6559a51e7d45083945ded4f1bf3305494350f693b6d20b9c8"
 
 [[package]]
 name = "flate2"
@@ -906,9 +906,9 @@ dependencies = [
 
 [[package]]
 name = "lz4rip"
-version = "0.12.5"
+version = "0.12.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6355a62d2957764be72e0cc1d20bbae2f002636fbe50b5de0547a477c899425e"
+checksum = "1fdd7aa6ae3bac7052e56f64191ba169c774ef580da8e43d7c0e9b8a9b21380b"
 dependencies = [
  "lz4rip-core",
  "lz4rip-decode",
@@ -917,24 +917,24 @@ dependencies = [
 
 [[package]]
 name = "lz4rip-core"
-version = "0.6.2"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "052afa89a977207a207f3e074b1518b0fb5767dab3274464fd1ee5fc7699a30b"
+checksum = "7bdf793dbc6411593ff9ee1213413edcbf6c7e838eb56b3410645c248ed7f15b"
 
 [[package]]
 name = "lz4rip-decode"
-version = "0.11.2"
+version = "0.11.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1b0652316d9108ecf75802ddc55f4174a836f2c93c3ab3b06ed009e211d9f9c7"
+checksum = "f8842ba75da66887d9de80c336e283ecf40104f2432f34249c023950d21c9634"
 dependencies = [
  "lz4rip-core",
 ]
 
 [[package]]
 name = "lz4rip-encode"
-version = "0.10.15"
+version = "0.10.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b68efe7ab8b303c1138fee4b34bf1df2bcb6ae0de80475ce1d9d9fb940122149"
+checksum = "ae8644d7943183d8149ce11534b9d84f5ef41944b60e5ee5d688e1f9dc61f935"
 dependencies = [
  "lz4rip-core",
 ]
@@ -1046,9 +1046,9 @@ checksum = "521739c6d2bac4aa25192232afe6841231376b2b26d4d9fae5ecf8ca5772e441"
 
 [[package]]
 name = "omq-libzmq"
-version = "0.13.2"
+version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b97a32ac911911239b2a7c691b13960a3f0c0d44f5a0e6b29d218d44696615d8"
+checksum = "efe6541d80ae408cd38846d1516510c9f3fe4f95f49ce3fbc9b9640dff5845b2"
 dependencies = [
  "bytes",
  "libc",
@@ -1061,7 +1061,7 @@ dependencies = [
 
 [[package]]
 name = "omq-php-native"
-version = "0.1.7"
+version = "0.1.8"
 dependencies = [
  "cc",
  "ext-php-rs",
@@ -1071,9 +1071,9 @@ dependencies = [
 
 [[package]]
 name = "omq-proto"
-version = "0.42.2"
+version = "0.42.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8de42c72d1af77214e0b5eeab072fed7cda19ffaa12a3dd0071fc54db4046de4"
+checksum = "44d5285e7d9c4e1740f8dd5233064addf077735c5a3c69f9abf3cb4a3a645b8e"
 dependencies = [
  "bytes",
  "concurrent-queue",
@@ -1093,9 +1093,9 @@ dependencies = [
 
 [[package]]
 name = "omq-shm"
-version = "0.10.2"
+version = "0.10.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d5348117bf44bbc63ca264cebd02fc5a1438c0f09b354784da7692ecf2c1d941"
+checksum = "3978a5395d7c64e5b129ae29df44544358001fb6ca91e12704410653e4181397"
 dependencies = [
  "arc-swap",
  "bytes",
@@ -1107,9 +1107,9 @@ dependencies = [
 
 [[package]]
 name = "omq-tokio"
-version = "0.39.2"
+version = "0.40.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "682d03a33f442e03bec9166b35adbb8ab28b98a633a13ac37727a4b42dbc13f1"
+checksum = "4408c72883be9de696e725631a9035daac38990ab3758526e3b723325c64f720"
 dependencies = [
  "arc-swap",
  "bytes",
@@ -1786,6 +1786,7 @@ dependencies = [
  "bytes",
  "libc",
  "mio",
+ "parking_lot",
  "pin-project-lite",
  "socket2",
  "tokio-macros",
@@ -2283,9 +2284,9 @@ dependencies = [
 
 [[package]]
 name = "zip"
-version = "9.8.2"
+version = "9.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2d8dbe089cf6b0448b78f5fc50139ab5aaa40d08ac07cdc1baf2c13add35fcce"
+checksum = "07db37dec4a7c468df4723fba4cadb4822d1d0f10dbea367100b6a6881b2a9c9"
 dependencies = [
  "aes",
  "bzip2",
@@ -2337,9 +2338,9 @@ dependencies = [
 
 [[package]]
 name = "zrip"
-version = "0.8.27"
+version = "0.8.30"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f4e6e42015358c525cdd20b7e110ac8f25838efacfe89a4f5890b9c464a6c270"
+checksum = "1828ef0d304dd4a937d79b41fc156e8ad4fe4d1adc0ed8ec78459f7dcd591a2b"
 dependencies = [
  "zrip-core",
  "zrip-decode",
@@ -2348,24 +2349,24 @@ dependencies = [
 
 [[package]]
 name = "zrip-core"
-version = "0.14.2"
+version = "0.14.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "47a015d2504d12688520bc7ba375a08ded1c1838795e21d2a0c12a4312614152"
+checksum = "e272c169a339565f59a6cbef7095b21450c0b745c73445ecd4ba2b4735626b53"
 
 [[package]]
 name = "zrip-decode"
-version = "0.8.20"
+version = "0.8.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "58d8a5160431444760787034d0c732ba1bf2a9925364aa4f7497bfee76f51c3f"
+checksum = "044e3b74d640997a7bc77902ee11983d51d9e6494b5cdf4ef587142a7b1d0e3b"
 dependencies = [
  "zrip-core",
 ]
 
 [[package]]
 name = "zrip-encode"
-version = "0.10.4"
+version = "0.10.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5aaf5071da1730bd45ba87479d223a27215cab35371334f5533e7fb94ad0fc07"
+checksum = "a765288c26dcd863c40e6d1489fa9fd6c85600ae5b4ef3f7aacc08b6df337b38"
 dependencies = [
  "zrip-core",
 ]
